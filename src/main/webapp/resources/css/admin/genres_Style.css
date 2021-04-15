@@ -1,0 +1,61 @@
+#genresHeader {
+    color: #ff6939;
+    text-align: center;
+    position: absolute;
+    left: 680px;
+    top: 60px;
+    font-size: 24px;
+}
+
+#genre {
+    width: 200px;
+    padding: 4px 4px;
+    margin: 8px 8px;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 14px;
+    position: absolute;
+    left: 495px;
+    top: 125px;
+}
+
+#genresTable {
+    text-align: center;
+    position: absolute;
+    left: 500px;
+    top: 180px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #1f253d;
+    border-collapse: collapse;
+    width: 500px;
+    background-color: white;
+}
+
+td, th {
+    border: 3px solid #217d98;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    color: #217d98;
+}
+
+input[type=submit] {
+    position: absolute;
+    left: 720px;
+    top: 133px;
+    height: 27px;
+    font-weight: bold;
+}
+
+input[type=submit]:hover {
+    background-color: #3bc67c;
+    border: none;
+}
+
+button[id="genreDelete"]:hover {
+    color: red;
+}

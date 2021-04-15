@@ -1,0 +1,74 @@
+header {
+    height: 55px;
+}
+
+.header-menu-tab {
+    padding: 0 8px;
+    display: block;
+    line-height: 54px;
+    font-size: 17px;
+    -webkit-transition: background .3s;
+    transition: background .3s;
+    text-align: center;
+}
+
+.header-menu-tab:hover {
+    background: #508994;
+    border-bottom: 3px solid #11a8ab;
+    text-decoration: none;
+}
+
+#logout {
+    position: absolute;
+    left: 1250px;
+    text-decoration: none;
+    font-weight: bold;
+    top: 30px;
+}
+
+#logout:hover {
+    border-bottom: 3px solid #ab1d19;
+    text-decoration: none;
+}
+
+.header-menu-tab .icon {
+    padding-right: 8px;
+}
+
+.header-menu li:hover {
+    text-decoration: none;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+
+}
+
+.profile-menu {
+    float: right;
+    height: 80px;
+    padding-right: 20px;
+}
+
+.profile-menu p {
+    font-size: 17px;
+    display: inline-block;
+    line-height: 76px;
+    margin: 0;
+    padding-right: 10px;
+}
+
+.profile-menu a {
+    padding-left: 5px;
+}
+
+.profile-menu a:hover {
+    text-decoration: none;
+}
+
+#console {
+    position: absolute;
+    left: 550px;
+    top: 25px;
+    font-size: 35px;
+    color: #ff7423;
+    font-family: "Droid Sans Mono Slashed", serif;
+}

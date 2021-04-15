@@ -1,0 +1,64 @@
+#shoppingHeader {
+    font-size: 23px;
+    color: #ff6939;
+    text-align: center;
+    position: absolute;
+    left: 620px;
+    top: 70px;
+}
+
+#empty {
+    position: absolute;
+    left: 560px;
+    top: 140px;
+    font-size: 20px;
+}
+
+table {
+    text-align: center;
+    position: absolute;
+    left: 430px;
+    top: 140px;
+    font-family: arial, sans-serif;
+    font-size: 17px;
+    color: #1f253d;
+    border-collapse: collapse;
+    width: 600px;
+    background-color: white;
+}
+
+#tol {
+    color: #28199c;
+    font-weight: bold;
+}
+
+#checkout:hover {
+    color: green;
+}
+
+button {
+    font-weight: bold;
+}
+
+#delete:hover {
+    color: red;
+}
+
+td, th {
+    border: 3px solid #176a98;
+    text-align: left;
+    padding: 2px;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(18, 99, 87, 0.53);
+}
+
+th {
+    color: #217d98;
+}

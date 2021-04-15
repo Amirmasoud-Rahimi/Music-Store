@@ -1,0 +1,81 @@
+.main-block {
+    text-align: center;
+    position: absolute;
+    top: 90px;
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    color: #1f253d;
+    border-collapse: collapse;
+    width: 450px;
+}
+
+.main-block, .info {
+    display: flex;
+    flex-direction: column;
+}
+
+option {
+    background: black;
+    border: none;
+}
+
+form[id=checkout] {
+    width: 700px;
+    position: inherit;
+    left: 400px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+input, select {
+    outline: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    color: #eee;
+    padding: 5px;
+    margin: 0 0 15px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #eee;
+    font-weight: bold;
+}
+
+button[id="checkOutButton"] {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 20px auto 0;
+    border: none;
+    border-radius: 5px;
+    background: #1c87c9;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+button[id="checkOutButton"]:hover {
+    background: #29cb92;
+}
+
+.fname {
+    color: #ff7a14;
+}
+
+@media (min-width: 500px) {
+    .info {
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    input {
+        width: 46%;
+    }
+
+    input.fname {
+        width: 100%;
+    }
+
+    select {
+        width: 46%;
+    }
+}

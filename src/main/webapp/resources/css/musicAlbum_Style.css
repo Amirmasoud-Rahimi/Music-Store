@@ -1,0 +1,160 @@
+body {
+    text-align: center;
+}
+
+a {
+    font-size: 20px;
+    font-family: "B Nazanin ", serif;
+    text-decoration: none;
+}
+
+#add, #vote {
+    color: #000000;
+    font-weight: bold;
+}
+
+#add:hover {
+    color: #1abf0e;
+}
+
+#vote:hover {
+    color: #166ed6;
+}
+
+#album {
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "B Nazanin ", serif;
+
+}
+
+#album:hover {
+    color: #ea4c88;
+}
+
+a:hover {
+    color: crimson;
+    text-decoration: none;
+}
+
+#header {
+    border: 4px solid #5ab85f;
+    padding: 10px;
+    color: #217d98;
+    font-size: 27px;
+    font-weight: bold;
+    margin: 10px auto;
+    width: 1137px;
+    font-family: "Georgia Bold Italic", serif;
+}
+
+#lhs {
+    border: 4px solid #217d98;
+    height: 477px;
+}
+
+#rhs1 {
+    border: 4px solid #ff6939;
+    height: 477px;
+    margin-bottom: 15px;
+    background-image: url("/Music/resources/img/singer.jpg");
+    background-size: 300px 425px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+audio {
+    width: 450px;
+    height: 40px;
+}
+
+input[type=button] {
+    font-size: 20px;
+    height: 45px;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: 1px solid;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    width: 55px;
+    height: 35px;
+}
+
+#traditional {
+    width: 85px;
+}
+
+form {
+    position: absolute;
+    top: 30px;
+    left: 150px;
+}
+
+#search {
+    width: 75px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#search:hover {
+    color: #22b307;
+}
+
+#category {
+    font-weight: bold;
+}
+
+#category:hover {
+    color: #ff6c00;
+}
+
+#submit {
+    font-weight: bold;
+}
+
+#submit:hover {
+    color: red;
+}
+
+.tab button:hover {
+    background-color: #66d8fc;
+}
+
+pre, p {
+    font-weight: bold;
+}
+
+#image {
+    font-weight: bold;
+}
+
+#footer {
+    width: 580px;
+    position: absolute;
+    left: 100px;
+}
+
+#profile {
+    width: 580px;
+    position: absolute;
+    right: 100px;
+}
+
+input[type=button]:hover {
+    text-decoration: none;
+}

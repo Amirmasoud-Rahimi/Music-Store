@@ -1,0 +1,116 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-image: url("/Music/resources/img/Background.jpg");
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: "Comic Sans MS", serif;
+}
+
+a[id=musicAlbum] {
+    font-size: 35px;
+}
+
+a[id=signUp], .dropButton {
+    font-size: 30px;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    left: 800px;
+    top: 50px
+}
+
+a[id=musicAlbum] {
+    position: absolute;
+    left: 550px;
+    top: 30px;
+}
+
+a[id=signUp] {
+    position: absolute;
+    left: 400px;
+    top: 50px;
+}
+
+a[id=user] {
+    font-size: 25px;
+    position: absolute;
+    left: 50px;
+    top: 30px
+}
+
+a[id=admin] {
+    font-size: 25px;
+    position: absolute;
+    left: 1100px;
+    top: 30px
+}
+
+a[id=admin]:hover, a[id=user]:hover {
+    color: #006ea1;
+}
+
+p {
+    color: white;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.dropdown:hover .dropButton {
+    color: yellow;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    font-size: 20px;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content a[id=userLink]:hover {
+    color: green;
+}
+
+.dropdown-content a[id=adminLink]:hover {
+    color: #066cf1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+embed {
+    display: none;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
